@@ -15,15 +15,16 @@ export default function Home() {
   <div className="absolute w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-cyan-500 opacity-20 blur-3xl rounded-full"></div>
 
   {/* Left Microscope */}
-  <div className="hidden md:flex absolute left-10 top-1/2 -translate-y-1/2">
-    <div className="w-32 h-32 rounded-full border-2 border-cyan-400 shadow-[0_0_30px_cyan] flex items-center justify-center text-5xl bg-black">
-      🔬
-    </div>
+  <div className="hidden lg:flex absolute left-10 top-1/2 -translate-y-1/2">
+  <div className="w-32 h-32 rounded-full border-2 border-cyan-400 shadow-[0_0_30px_cyan] flex items-center justify-center">
+    🔬
   </div>
+</div>
 
   {/* Right Coding Circle */}
   <div className="hidden md:flex absolute right-10 top-1/2 -translate-y-1/2">
-    <div className="w-32 h-32 rounded-full border-2 border-cyan-400 shadow-[0_0_30px_cyan] flex items-center justify-center text-cyan-300 bg-black text-xs text-center p-3">
+  <div className="w-32 h-32 rounded-full border-2 border-cyan-400 shadow-[0_0_30px_cyan] flex items-center justify-center text-cyan-300 text-sm">
+    <div className="text-center">
       const bio = true;
       <br />
       AI_genomics();
@@ -31,6 +32,7 @@ export default function Home() {
       run_CRISPR();
     </div>
   </div>
+</div>
 
   {/* Profile Image */}
   <div className="relative z-10 mb-8 mt-20">
