@@ -8,7 +8,7 @@ export default function Home() {
       {/* Hero Section */}
     <section
   id="home"
-  className="relative min-h-[85vh] flex flex-col items-center justify-center text-center px-4 pt-24 pb-10">
+  className="relative flex flex-col items-center justify-start text-center px-4 pt-28 pb-6">
 
   {/* Glow Background */}
   <div className="absolute w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-cyan-500 opacity-10 blur-3xl rounded-full"></div>
