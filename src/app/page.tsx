@@ -11,56 +11,77 @@ export default function Home() {
   className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden"
 >
 
-  {/* Glow */}
-  <div className="absolute w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-cyan-500 opacity-20 blur-3xl rounded-full"></div>
+  {/* Glow Background */}
+  <div className="absolute w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-cyan-500 opacity-10 blur-3xl rounded-full"></div>
 
-  {/* Left Microscope */}
-  <div className="hidden lg:flex absolute left-10 top-1/2 -translate-y-1/2">
-  <div className="w-32 h-32 rounded-full border-2 border-cyan-400 shadow-[0_0_30px_cyan] flex items-center justify-center">
-    🔬
-  </div>
-</div>
+  {/* LEFT Circle */}
+  <div className="hidden xl:flex absolute left-[3%] top-[55%] -translate-y-1/2 opacity-70">
+    <div className="w-20 h-20 rounded-full border border-cyan-400 shadow-[0_0_15px_#00ffff] flex items-center justify-center bg-black/40 backdrop-blur-md">
 
-  {/* Right Coding Circle */}
-  <div className="hidden md:flex absolute right-10 top-1/2 -translate-y-1/2">
-  <div className="w-32 h-32 rounded-full border-2 border-cyan-400 shadow-[0_0_30px_cyan] flex items-center justify-center text-cyan-300 text-sm">
-    <div className="text-center">
-      const bio = true;
-      <br />
-      AI_genomics();
-      <br />
-      run_CRISPR();
+      <div className="absolute inset-0 flex flex-col justify-center items-center opacity-30">
+        <div className="w-28 h-[2px] bg-cyan-400 mb-3"></div>
+        <div className="w-36 h-[2px] bg-cyan-400 mb-3"></div>
+        <div className="w-24 h-[2px] bg-cyan-400 mb-3"></div>
+        <div className="w-32 h-[2px] bg-cyan-400"></div>
+      </div>
+
+      <span className="text-4xl z-10">🔬</span>
     </div>
   </div>
-</div>
 
-  {/* Profile Image */}
-  <div className="relative z-10 mb-8 mt-20">
-    <Image
-      src="/profile.jpg"
-      alt="Kshitij Sharma"
-      width={300}
-      height={300}
-      className="w-52 h-52 md:w-72 md:h-72 rounded-full border-4 border-cyan-400 shadow-[0_0_40px_cyan] object-cover"
-    />
+  {/* RIGHT Circle */}
+  <div className="hidden xl:flex absolute right-[3%] top-[55%] -translate-y-1/2 opacity-70">
+    <div className="w-20 h-20 rounded-full border border-cyan-400 shadow-[0_0_15px_#00ffff] flex items-center justify-center bg-black/40 backdrop-blur-md">
+
+      <div className="absolute inset-0 flex flex-col justify-center items-center opacity-30">
+        <div className="w-28 h-[2px] bg-cyan-400 mb-3"></div>
+        <div className="w-36 h-[2px] bg-cyan-400 mb-3"></div>
+        <div className="w-24 h-[2px] bg-cyan-400 mb-3"></div>
+        <div className="w-32 h-[2px] bg-cyan-400"></div>
+      </div>
+
+      <div className="text-center text-[8px] leading-3 text-cyan-200 z-10">
+        bio = true;
+        <br />
+        genomics();
+        <br />
+        CRISPR();
+      </div>
+    </div>
   </div>
 
-  {/* Heading */}
-  <h1 className="text-5xl md:text-7xl font-extrabold z-10 leading-tight">
-    Kshitij Sharma
-  </h1>
+  {/* Profile Image */}
+  <div className="relative z-10 mb-8 flex justify-center">
+    <div className="w-56 h-56 mt-16 rounded-full overflow-hidden border-4 border-cyan-400 shadow-[0_0_40px_#00ffff]">
 
-  {/* Subtitle */}
-  <p className="mt-4 text-cyan-400 text-xl md:text-3xl z-10">
-    Bioinformatics Researcher | Computational Biology
-  </p>
+      <Image
+        src="/profile.jpg"
+        alt="Kshitij Sharma"
+        width={300}
+        height={300}
+        className="object-cover w-full h-full"
+      />
+    </div>
+  </div>
 
-  {/* Description */}
-  <p className="mt-6 max-w-2xl text-gray-400 text-sm md:text-lg leading-7 z-10 px-2">
-    Exploring CRISPR systems, computational genomics,
-    AI-driven biomarker discovery, molecular diagnostics,
-    and translational bioinformatics research.
-  </p>
+  {/* Main Content */}
+  <div className="relative z-10 max-w-4xl">
+
+    <h1 className="text-5xl md:text-7xl font-extrabold text-white">
+      Kshitij Sharma
+    </h1>
+
+    <p className="mt-4 text-cyan-400 text-xl md:text-3xl font-medium">
+      Bioinformatics Researcher | Computational Biology
+    </p>
+
+    <p className="mt-6 text-gray-400 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
+      Exploring CRISPR systems, computational genomics,
+      AI-driven biomarker discovery, molecular diagnostics,
+      and translational bioinformatics research.
+    </p>
+
+  </div>
 
 </section>
       {/* Floating Particles */}
