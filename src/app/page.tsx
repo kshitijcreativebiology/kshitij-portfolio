@@ -6,18 +6,61 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="relative z-10 mb-8 flex justify-center">
-  <div className="w-56 h-56 mt-16 rounded-full overflow-hidden border-4 border-cyan-400 shadow-[0_0_40px_#22d3ee]">    
+      <section
+  id="home"
+  className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden"
+>
+
+  {/* Glow */}
+  <div className="absolute w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-cyan-500 opacity-20 blur-3xl rounded-full"></div>
+
+  {/* Left Microscope */}
+  <div className="hidden md:flex absolute left-10 top-1/2 -translate-y-1/2">
+    <div className="w-32 h-32 rounded-full border-2 border-cyan-400 shadow-[0_0_30px_cyan] flex items-center justify-center text-5xl bg-black">
+      🔬
+    </div>
+  </div>
+
+  {/* Right Coding Circle */}
+  <div className="hidden md:flex absolute right-10 top-1/2 -translate-y-1/2">
+    <div className="w-32 h-32 rounded-full border-2 border-cyan-400 shadow-[0_0_30px_cyan] flex items-center justify-center text-cyan-300 bg-black text-xs text-center p-3">
+      const bio = true;
+      <br />
+      AI_genomics();
+      <br />
+      run_CRISPR();
+    </div>
+  </div>
+
+  {/* Profile Image */}
+  <div className="relative z-10 mb-8 mt-20">
     <Image
       src="/profile.jpg"
       alt="Kshitij Sharma"
       width={300}
       height={300}
-      className="object-cover w-full h-full"
+      className="w-52 h-52 md:w-72 md:h-72 rounded-full border-4 border-cyan-400 shadow-[0_0_40px_cyan] object-cover"
     />
-    
   </div>
-</div>
+
+  {/* Heading */}
+  <h1 className="text-5xl md:text-7xl font-extrabold z-10 leading-tight">
+    Kshitij Sharma
+  </h1>
+
+  {/* Subtitle */}
+  <p className="mt-4 text-cyan-400 text-xl md:text-3xl z-10">
+    Bioinformatics Researcher | Computational Biology
+  </p>
+
+  {/* Description */}
+  <p className="mt-6 max-w-2xl text-gray-400 text-sm md:text-lg leading-7 z-10 px-2">
+    Exploring CRISPR systems, computational genomics,
+    AI-driven biomarker discovery, molecular diagnostics,
+    and translational bioinformatics research.
+  </p>
+
+</section>
       {/* Floating Particles */}
       {/* Left Microscope */}
 <div className="absolute left-10 top-1/2 -translate-y-1/2 hidden lg:flex">

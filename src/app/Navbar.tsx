@@ -1,14 +1,15 @@
 export default function Navbar() {
   return (
-
-    <nav className="fixed top-0 left-0 w-full backdrop-blur-md bg-black/30 border-b border-cyan-500/10 z-50">
-
+    <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/30 border-b border-cyan-500/20">
+      
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
+        {/* Logo */}
         <h1 className="text-cyan-400 text-2xl font-bold">
           Kshitij BioLab
         </h1>
 
+        {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-gray-300 items-center">
 
           <a href="#home">
@@ -41,19 +42,25 @@ export default function Navbar() {
             </li>
           </a>
 
+          {/* LinkedIn Button */}
           <a
             href="https://www.linkedin.com/in/kshitij-sharma-2b85b7217"
             target="_blank"
-            className="border border-cyan-500 px-4 py-2 rounded-xl text-cyan-400 hover:bg-cyan-500 hover:text-black transition"
+            rel="noopener noreferrer"
           >
-            LinkedIn
+            <li className="border border-cyan-400 px-4 py-2 rounded-lg hover:bg-cyan-400 hover:text-black transition">
+              LinkedIn
+            </li>
           </a>
 
         </ul>
 
+        {/* Mobile Menu Icon */}
+        <div className="md:hidden text-cyan-400 text-3xl">
+          ☰
+        </div>
+
       </div>
-
     </nav>
-
   );
 }
