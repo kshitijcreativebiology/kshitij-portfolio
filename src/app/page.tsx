@@ -91,9 +91,9 @@ export default function Home() {
     </p>
 
     <p className="mt-6 text-gray-400 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
-      Exploring CRISPR systems, computational genomics,
-      AI-driven biomarker discovery, molecular diagnostics,
-      and translational bioinformatics research.
+      Exploring CRISPR systems, computational genomics, AI-powered biomarker discovery, 
+      molecular diagnostics, and translational bioinformatics to build 
+      innovative solutions for next-generation healthcare and precision medicine.
     </p>
 
   </div>
