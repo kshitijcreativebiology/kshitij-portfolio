@@ -85,28 +85,6 @@ export default function Home() {
 
 </section>
       {/* Floating Particles */}
-      {/* Left Microscope */}
-<div className="absolute left-10 top-1/2 -translate-y-1/2 hidden lg:flex">
-  <div className="w-40 h-40 rounded-full border border-cyan-400 shadow-[0_0_30px_#22d3ee] flex items-center justify-center animate-pulse">
-
-    <span className="text-6xl">🔬</span>
-
-  </div>
-</div>
-{/* Right Coding */}
-<div className="absolute right-10 top-1/2 -translate-y-1/2 hidden lg:flex">
-  <div className="w-40 h-40 rounded-full border border-cyan-400 shadow-[0_0_30px_#22d3ee] flex items-center justify-center animate-pulse">
-
-    <span className="text-5xl font-bold text-cyan-400">
-      <div className="text-cyan-400 text-sm font-mono">
-  <p>const bio = true;</p>
-  <p>AI.genomics();</p>
-  <p>run.CRISPR();</p>
-</div>
-    </span>
-
-  </div>
-</div>
 <div className="absolute inset-0 overflow-hidden">
 
   <div className="particle w-3 h-3 left-[10%] top-[20%]"></div>
