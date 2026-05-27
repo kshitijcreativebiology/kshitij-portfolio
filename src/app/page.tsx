@@ -15,40 +15,46 @@ export default function Home() {
   <div className="absolute w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-cyan-500 opacity-10 blur-3xl rounded-full"></div>
 
   {/* LEFT Circle */}
-  <div className="hidden xl:flex absolute left-[3%] top-[55%] -translate-y-1/2 opacity-70">
-    <div className="w-20 h-20 rounded-full border border-cyan-400 shadow-[0_0_15px_#00ffff] flex items-center justify-center bg-black/40 backdrop-blur-md">
-
-      <div className="absolute inset-0 flex flex-col justify-center items-center opacity-30">
-        <div className="w-28 h-[2px] bg-cyan-400 mb-3"></div>
-        <div className="w-36 h-[2px] bg-cyan-400 mb-3"></div>
-        <div className="w-24 h-[2px] bg-cyan-400 mb-3"></div>
-        <div className="w-32 h-[2px] bg-cyan-400"></div>
-      </div>
-
-      <span className="text-4xl z-10">🔬</span>
+  <div className="hidden xl:flex absolute left-6 top-1/2 -translate-y-1/2 opacity-60">
+  <div className="relative">
+    
+    <div className="w-24 h-24 rounded-full border border-cyan-400 shadow-[0_0_25px_cyan] flex items-center justify-center bg-black/40 backdrop-blur-sm">
+      <span className="text-4xl">🔬</span>
     </div>
+
+    <div className="absolute -top-6 left-10 w-20 h-[2px] bg-cyan-400/40"></div>
+    <div className="absolute top-4 left-16 w-32 h-[2px] bg-cyan-400/50"></div>
+    <div className="absolute top-10 left-20 w-40 h-[2px] bg-cyan-400/60"></div>
+    <div className="absolute top-16 left-14 w-28 h-[2px] bg-cyan-400/40"></div>
+
+    <div className="absolute top-28 left-14 w-10 h-[2px] bg-cyan-400/40"></div>
+    <div className="absolute top-40 left-10 w-8 h-[2px] bg-cyan-400/30"></div>
+
   </div>
+</div>
 
   {/* RIGHT Circle */}
-  <div className="hidden xl:flex absolute right-[3%] top-[55%] -translate-y-1/2 opacity-70">
-    <div className="w-20 h-20 rounded-full border border-cyan-400 shadow-[0_0_15px_#00ffff] flex items-center justify-center bg-black/40 backdrop-blur-md">
+  <div className="hidden xl:flex absolute right-6 top-1/2 -translate-y-1/2 opacity-60">
+  <div className="relative">
 
-      <div className="absolute inset-0 flex flex-col justify-center items-center opacity-30">
-        <div className="w-28 h-[2px] bg-cyan-400 mb-3"></div>
-        <div className="w-36 h-[2px] bg-cyan-400 mb-3"></div>
-        <div className="w-24 h-[2px] bg-cyan-400 mb-3"></div>
-        <div className="w-32 h-[2px] bg-cyan-400"></div>
-      </div>
-
-      <div className="text-center text-[8px] leading-3 text-cyan-200 z-10">
-        bio = true;
-        <br />
-        genomics();
-        <br />
-        CRISPR();
-      </div>
+    <div className="w-24 h-24 rounded-full border border-cyan-400 shadow-[0_0_25px_cyan] flex items-center justify-center bg-black/40 backdrop-blur-sm text-cyan-300 text-[10px] leading-4 p-3 text-center">
+      const bio = true;
+      <br />
+      AI.genomics();
+      <br />
+      run.CRISPR();
     </div>
+
+    <div className="absolute -top-6 right-10 w-20 h-[2px] bg-cyan-400/40"></div>
+    <div className="absolute top-4 right-16 w-32 h-[2px] bg-cyan-400/50"></div>
+    <div className="absolute top-10 right-20 w-40 h-[2px] bg-cyan-400/60"></div>
+    <div className="absolute top-16 right-14 w-28 h-[2px] bg-cyan-400/40"></div>
+
+    <div className="absolute top-28 right-14 w-10 h-[2px] bg-cyan-400/40"></div>
+    <div className="absolute top-40 right-10 w-8 h-[2px] bg-cyan-400/30"></div>
+
   </div>
+</div>
 
   {/* Profile Image */}
   <div className="relative z-10 mb-8 flex justify-center">
@@ -125,27 +131,6 @@ export default function Home() {
 
         {/* Glow Background */}
         <div className="absolute w-[400px] h-[400px] bg-cyan-500 opacity-20 blur-3xl rounded-full"></div>
-
-        {/* Main Heading */}
-        <h1 className="text-6xl md:text-7xl font-extrabold z-10">
-          Kshitij Sharma
-        </h1>
-
-        {/* Subtitle */}
-        <p className="mt-6 text-cyan-400 text-xl md:text-2xl z-10">
-          Bioinformatics Researcher | Computational Biology
-        </p>
-
-        {/* Description */}
-        <p className="mt-6 max-w-3xl text-gray-400 leading-8 z-10">
-          Exploring CRISPR systems, computational genomics,
-          AI-driven biomarker discovery, molecular diagnostics,
-          and translational bioinformatics research.
-        </p>
-        <div className="mt-16 flex justify-center">
-  <div className="molecule"></div>
-</div>
-
         {/* Buttons */}
         <div className="mt-10 flex gap-4 z-10">
 
