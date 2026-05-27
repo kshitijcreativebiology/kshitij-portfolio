@@ -6,38 +6,44 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <section
+    <section
   id="home"
-  className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden"
->
+  className="relative min-h-[85vh] flex flex-col items-center justify-center text-center px-4 pt-24 pb-10">
 
   {/* Glow Background */}
   <div className="absolute w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-cyan-500 opacity-10 blur-3xl rounded-full"></div>
 
   {/* LEFT Circle */}
-  <div className="hidden xl:flex absolute left-6 top-1/2 -translate-y-1/2 opacity-60">
+<div className="hidden xl:flex absolute left-12 top-1/2 -translate-y-1/2 opacity-70">
   <div className="relative">
-    
-    <div className="w-24 h-24 rounded-full border border-cyan-400 shadow-[0_0_25px_cyan] flex items-center justify-center bg-black/40 backdrop-blur-sm">
-      <span className="text-4xl">🔬</span>
+
+    {/* Main Circle */}
+    <div className="w-32 h-32 rounded-full border border-cyan-400 shadow-[0_0_35px_cyan] flex items-center justify-center bg-black/40 backdrop-blur-sm">
+      <span className="text-5xl">🔬</span>
     </div>
 
-    <div className="absolute -top-6 left-10 w-20 h-[2px] bg-cyan-400/40"></div>
-    <div className="absolute top-4 left-16 w-32 h-[2px] bg-cyan-400/50"></div>
-    <div className="absolute top-10 left-20 w-40 h-[2px] bg-cyan-400/60"></div>
-    <div className="absolute top-16 left-14 w-28 h-[2px] bg-cyan-400/40"></div>
+    {/* Lines */}
+    <div className="absolute -top-8 left-10 w-20 h-[2px] bg-cyan-400/30"></div>
+    <div className="absolute top-4 left-20 w-36 h-[2px] bg-cyan-400/50"></div>
+    <div className="absolute top-10 left-24 w-48 h-[2px] bg-cyan-400/60"></div>
+    <div className="absolute top-16 left-20 w-36 h-[2px] bg-cyan-400/50"></div>
+    <div className="absolute top-24 left-14 w-24 h-[2px] bg-cyan-400/40"></div>
 
-    <div className="absolute top-28 left-14 w-10 h-[2px] bg-cyan-400/40"></div>
-    <div className="absolute top-40 left-10 w-8 h-[2px] bg-cyan-400/30"></div>
+    {/* Bottom Small Lines */}
+    <div className="absolute top-40 left-16 w-12 h-[2px] bg-cyan-400/30"></div>
+    <div className="absolute top-52 left-12 w-10 h-[2px] bg-cyan-400/20"></div>
 
   </div>
 </div>
 
-  {/* RIGHT Circle */}
-  <div className="hidden xl:flex absolute right-6 top-1/2 -translate-y-1/2 opacity-60">
+
+
+{/* RIGHT Circle */}
+<div className="hidden xl:flex absolute right-12 top-1/2 -translate-y-1/2 opacity-70">
   <div className="relative">
 
-    <div className="w-24 h-24 rounded-full border border-cyan-400 shadow-[0_0_25px_cyan] flex items-center justify-center bg-black/40 backdrop-blur-sm text-cyan-300 text-[10px] leading-4 p-3 text-center">
+    {/* Main Circle */}
+    <div className="w-32 h-32 rounded-full border border-cyan-400 shadow-[0_0_35px_cyan] flex items-center justify-center bg-black/40 backdrop-blur-sm text-cyan-300 text-xs leading-5 p-4 text-center">
       const bio = true;
       <br />
       AI.genomics();
@@ -45,13 +51,16 @@ export default function Home() {
       run.CRISPR();
     </div>
 
-    <div className="absolute -top-6 right-10 w-20 h-[2px] bg-cyan-400/40"></div>
-    <div className="absolute top-4 right-16 w-32 h-[2px] bg-cyan-400/50"></div>
-    <div className="absolute top-10 right-20 w-40 h-[2px] bg-cyan-400/60"></div>
-    <div className="absolute top-16 right-14 w-28 h-[2px] bg-cyan-400/40"></div>
+    {/* Lines */}
+    <div className="absolute -top-8 right-10 w-20 h-[2px] bg-cyan-400/30"></div>
+    <div className="absolute top-4 right-20 w-36 h-[2px] bg-cyan-400/50"></div>
+    <div className="absolute top-10 right-24 w-48 h-[2px] bg-cyan-400/60"></div>
+    <div className="absolute top-16 right-20 w-36 h-[2px] bg-cyan-400/50"></div>
+    <div className="absolute top-24 right-14 w-24 h-[2px] bg-cyan-400/40"></div>
 
-    <div className="absolute top-28 right-14 w-10 h-[2px] bg-cyan-400/40"></div>
-    <div className="absolute top-40 right-10 w-8 h-[2px] bg-cyan-400/30"></div>
+    {/* Bottom Small Lines */}
+    <div className="absolute top-40 right-16 w-12 h-[2px] bg-cyan-400/30"></div>
+    <div className="absolute top-52 right-12 w-10 h-[2px] bg-cyan-400/20"></div>
 
   </div>
 </div>
