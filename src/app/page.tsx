@@ -367,6 +367,23 @@ export default function Home() {
         </p>
 
       </section>
+      {/* WhatsApp Floating Chat */}
+<a
+  href="https://wa.me/918882955476?text=Hello%20Kshitij,%20I%20want%20to%20discuss%20a%20bioinformatics%20project."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 z-50"
+>
+  <div className="flex items-center gap-2 bg-green-500 hover:bg-green-400 px-4 py-3 rounded-full shadow-[0_0_20px_rgba(34,197,94,0.7)] transition-all duration-300">
+    
+    <span className="text-2xl">💬</span>
+
+    <span className="text-white font-semibold hidden md:block">
+      Chat with Me
+    </span>
+
+  </div>
+</a>
 
     </main>
   );
