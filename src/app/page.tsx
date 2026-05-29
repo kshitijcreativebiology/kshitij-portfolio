@@ -87,13 +87,16 @@ export default function Home() {
     </h1>
 
     <p className="mt-4 text-cyan-400 text-xl md:text-3xl font-medium">
-      Bioinformatics Researcher | Computational Biology
+      Bioinformatics Researcher | Molecular Biology | Nanobiotechnology
     </p>
 
     <p className="mt-6 text-gray-400 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
-      Exploring CRISPR systems, computational genomics, AI-powered biomarker discovery, 
-      molecular diagnostics, and translational bioinformatics to build 
-      innovative solutions for next-generation healthcare and precision medicine.
+      Integrating computational biology, genomics,
+gene cloning, clinical microbiology,
+nanoparticle engineering, biosensors,
+and AI-driven diagnostics to advance
+precision medicine, cancer detection,
+and next-generation healthcare technologies.
     </p>
 
   </div>
@@ -172,71 +175,83 @@ export default function Home() {
           </h2>
 
           <p className="mt-10 text-gray-400 leading-8 text-center max-w-4xl mx-auto">
-            I am an MSc Biotechnology student passionate about
-            bioinformatics, computational biology, molecular diagnostics,
-            and AI-driven biomarker discovery. My work combines molecular
-            biology techniques with in-silico analysis for applications
-            in CRISPR gene editing, cancer diagnostics, and translational research.
-          </p>
+          I am an MSc Biotechnology student with interdisciplinary expertise
+in bioinformatics, computational biology, molecular biology,
+clinical microbiology, and nanobiotechnology.
+
+My work integrates in-silico analysis with hands-on laboratory
+techniques including recombinant DNA technology, gene cloning,
+microbial culture techniques, nanoparticle synthesis,
+hydrogel engineering, and molecular diagnostics.
+
+I am particularly interested in biosensors, precision medicine,
+cancer diagnostics, antimicrobial resistance,
+and AI-driven healthcare innovations.
+</p>
 
         </div>
 
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-24 px-6">
 
-        <h2 className="text-4xl font-bold text-center text-cyan-400">
-          Technical Skills
-        </h2>
+      {/* Dry Lab Skills */}
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-6xl mx-auto">
+<div className="bg-[#111] p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-400 transition">
+  <h3 className="text-2xl font-semibold text-cyan-400">
+    Dry Lab (Computational Biology)
+  </h3>
 
-          <div className="bg-[#111] p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-500 transition">
-            <h3 className="text-2xl font-semibold text-cyan-400">
-              Bioinformatics
-            </h3>
+  <ul className="mt-4 space-y-2 text-gray-400">
+    <li>• Bioinformatics</li>
+    <li>• Computational Biology</li>
+    <li>• Genomics Analysis</li>
+    <li>• CRISPR-Cas Analysis</li>
+    <li>• gRNA Design</li>
+    <li>• Molecular Docking</li>
+    <li>• Protein Structure Prediction</li>
+    <li>• Biomarker Discovery</li>
+    <li>• AI-Assisted Data Analysis</li>
+    <li>• Precision Medicine Research</li>
+    <li>• UniProt</li>
+    <li>• ExPASy</li>
+    <li>• AlphaFold</li>
+    <li>• SOPMA</li>
+    <li>• Chimera / PyMOL</li>
+  </ul>
+</div>
 
-            <ul className="mt-4 space-y-2 text-gray-400">
-              <li>• UniProt</li>
-              <li>• ExPASy</li>
-              <li>• AlphaFold</li>
-              <li>• SOPMA</li>
-              <li>• CHOPCHOP</li>
-            </ul>
-          </div>
 
-          <div className="bg-[#111] p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-500 transition">
-            <h3 className="text-2xl font-semibold text-cyan-400">
-              Molecular Biology
-            </h3>
+{/* Wet Lab Skills */}
 
-            <ul className="mt-4 space-y-2 text-gray-400">
-              <li>• PCR</li>
-              <li>• DNA Isolation</li>
-              <li>• Gel Electrophoresis</li>
-              <li>• Primer Designing</li>
-              <li>• CRISPR Systems</li>
-            </ul>
-          </div>
+<div className="bg-[#111] p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-400 transition">
+  <h3 className="text-2xl font-semibold text-cyan-400">
+    Wet Lab (Experimental Biotechnology)
+  </h3>
 
-          <div className="bg-[#111] p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-500 transition">
-            <h3 className="text-2xl font-semibold text-cyan-400">
-              AI & Programming
-            </h3>
-
-            <ul className="mt-4 space-y-2 text-gray-400">
-              <li>• Python</li>
-              <li>• Machine Learning</li>
-              <li>• Biomarker Analysis</li>
-              <li>• Data Analysis</li>
-              <li>• Computational Genomics</li>
-            </ul>
-          </div>
-
-        </div>
-
-      </section>
+  <ul className="mt-4 space-y-2 text-gray-400">
+    <li>• DNA Isolation</li>
+    <li>• PCR</li>
+    <li>• Agarose Gel Electrophoresis</li>
+    <li>• Recombinant DNA Technology</li>
+    <li>• Restriction Digestion</li>
+    <li>• DNA Ligation</li>
+    <li>• Gene Cloning</li>
+    <li>• Bacterial Transformation</li>
+    <li>• Plasmid Analysis</li>
+    <li>• Microbial Culture Techniques</li>
+    <li>• Clinical Microbiology</li>
+    <li>• Gram Staining</li>
+    <li>• Pathogen Isolation</li>
+    <li>• Antimicrobial Susceptibility Testing</li>
+    <li>• MIC & MBC Analysis</li>
+    <li>• Nanoparticle Synthesis</li>
+    <li>• Hydrogel Synthesis</li>
+    <li>• Nanofabrication</li>
+    <li>• Nanomaterial Characterization</li>
+    <li>• Molecular Diagnostics</li>
+  </ul>
+</div>
 
       {/* Projects Section */}
       <section id="projects" className="py-24 px-6 bg-[#050505]">
@@ -281,74 +296,77 @@ export default function Home() {
 
       </section>
       {/* Research Timeline */}
-<section className="py-24 px-6">
+<section id="research" className="research-section">
+  <h2>Research Journey</h2>
 
-  <h2 className="text-4xl font-bold text-center text-cyan-400">
-    Research Journey
-  </h2>
+  <div className="timeline">
 
-  <div className="max-w-4xl mx-auto mt-16 border-l border-cyan-500/30 pl-8 space-y-12">
-
-    <div className="relative">
-      <div className="absolute -left-[41px] top-2 w-4 h-4 bg-cyan-400 rounded-full"></div>
-
-      <h3 className="text-2xl font-semibold">
-        Helix Biogenesis Internship
-      </h3>
-
-      <p className="text-cyan-400 mt-2">
-        Molecular Biology & Microbiology
-      </p>
-
-      <p className="text-gray-400 mt-4 leading-7">
-        Worked on DNA isolation, PCR,
-        agarose gel electrophoresis,
-        microbial techniques, and
-        molecular diagnostics.
+    <div className="timeline-item">
+      <h3>🔬 Helix Biogenesis Internship</h3>
+      <h4>Molecular Biology & Microbiology</h4>
+      <p>
+        Worked on DNA isolation, PCR, agarose gel electrophoresis,
+        microbial culture techniques, molecular diagnostics,
+        and laboratory workflow management.
       </p>
     </div>
 
-    <div className="relative">
-      <div className="absolute -left-[41px] top-2 w-4 h-4 bg-cyan-400 rounded-full"></div>
-
-      <h3 className="text-2xl font-semibold">
-        CRISPR & Gene Editing Research
-      </h3>
-
-      <p className="text-cyan-400 mt-2">
-        AIIMS Raipur Collaboration
-      </p>
-
-      <p className="text-gray-400 mt-4 leading-7">
-        Performed computational CRISPR-Cas
-        analysis, gRNA designing,
-        homology modeling, and
-        structural bioinformatics workflows.
+    <div className="timeline-item">
+      <h3>🧬 CRISPR & Gene Editing Research</h3>
+      <h4>AIIMS Raipur Collaboration</h4>
+      <p>
+        Performed computational CRISPR-Cas analysis, gRNA design,
+        homology modeling, protein structure prediction,
+        and bioinformatics-driven gene editing studies.
       </p>
     </div>
 
-    <div className="relative">
-      <div className="absolute -left-[41px] top-2 w-4 h-4 bg-cyan-400 rounded-full"></div>
-
-      <h3 className="text-2xl font-semibold">
-        AI-Driven Biomarker Research
-      </h3>
-
-      <p className="text-cyan-400 mt-2">
-        Computational Oncology
+    <div className="timeline-item">
+      <h3>🤖 AI-Driven Biomarker Research</h3>
+      <h4>Computational Oncology</h4>
+      <p>
+        Investigated MUC1, MMP-9, and TIMP-1 as potential biomarkers
+        for early-stage cancer diagnostics using bioinformatics
+        and AI-assisted analytical approaches.
       </p>
+    </div>
 
-      <p className="text-gray-400 mt-4 leading-7">
-        Investigated MUC1, MMP-9,
-        and TIMP-1 proteins for
-        early pancreatic cancer
-        diagnostics using AI-assisted
-        bioinformatics analysis.
+    <div className="timeline-item">
+      <h3>🧪 Recombinant DNA Technology & Gene Cloning Training</h3>
+      <h4>Molecular Biotechnology</h4>
+      <p>
+        Hands-on training in restriction digestion, DNA ligation,
+        competent cell preparation, bacterial transformation,
+        agarose gel electrophoresis, plasmid analysis,
+        and recombinant colony screening.
+      </p>
+    </div>
+
+    <div className="timeline-item">
+      <h3>🦠 Clinical Microbiology Training</h3>
+      <h4>Medical & Clinical Microbiology</h4>
+      <p>
+        Performed media preparation, sterilization techniques,
+        pathogen isolation, Gram staining,
+        antimicrobial susceptibility testing,
+        MIC and MBC determination,
+        and laboratory biosafety practices.
+      </p>
+    </div>
+
+    <div className="timeline-item">
+      <h3>⚛️ Nanobiotechnology Training</h3>
+      <h4>IIT Roorkee</h4>
+      <p>
+        Hands-on exposure to nanoparticle synthesis,
+        hydrogel fabrication, nanofabrication techniques,
+        nanomaterial characterization,
+        antimicrobial resistance studies,
+        and biomedical nanotechnology applications.
       </p>
     </div>
 
   </div>
-
 </section>
 
       {/* Contact Section */}
