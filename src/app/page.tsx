@@ -309,16 +309,16 @@ and AI-driven healthcare innovations.
       <div className="absolute left-[-8px] top-2 w-4 h-4 bg-cyan-400 rounded-full shadow-[0_0_15px_#22d3ee]"></div>
 
       <h3 className="text-3xl font-bold text-white">
-        Helix Biogenesis Internship
+        Molecular Biology & Microbiology
       </h3>
 
       <h4 className="text-cyan-400 text-lg mt-1">
-        Molecular Biology & Microbiology
+        Helix Biogenesis, Noida
       </h4>
 
       <p className="text-gray-400 mt-4 leading-relaxed">
-        Worked on DNA isolation, PCR, agarose gel electrophoresis,
-        microbial culture techniques, molecular diagnostics,
+        Worked on DNA isolation, Plasmid isolation, PCR, agarose gel electrophoresis,
+        microbial culture techniques,gram staining, Biochemical Test, MIC & AST, molecular diagnostics,
         and laboratory workflow management.
       </p>
 
@@ -334,7 +334,7 @@ and AI-driven healthcare innovations.
       </h3>
 
       <h4 className="text-cyan-400 text-lg mt-1">
-        AIIMS Raipur Collaboration
+        Ethical Edufabrica (via AIIMS Raipur)
       </h4>
 
       <p className="text-gray-400 mt-4 leading-relaxed">
@@ -373,11 +373,11 @@ and AI-driven healthcare innovations.
       <div className="absolute left-[-8px] top-2 w-4 h-4 bg-cyan-400 rounded-full shadow-[0_0_15px_#22d3ee]"></div>
 
       <h3 className="text-3xl font-bold text-white">
-        Molecular Biology & Clinical Microbiology Training
+        Recombinant DNA Tech. & Medical Microbiology Training
       </h3>
 
       <h4 className="text-cyan-400 text-lg mt-1">
-        Rapture Biotech
+        Rapture Biotech , Noida
       </h4>
 
       <p className="text-gray-400 mt-4 leading-relaxed">
