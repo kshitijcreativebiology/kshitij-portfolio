@@ -4,6 +4,23 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white overflow-hidden">
       <Navbar />
+      
+      <div className="fixed inset-0 pointer-events-none overflow-hidden">
+
+  <div className="absolute top-[15%] left-[5%] text-cyan-400/10 text-7xl animate-bounce">
+    🧬
+  </div>
+
+  <div className="absolute top-[60%] right-[8%] text-cyan-400/10 text-7xl animate-bounce">
+    🔬
+  </div>
+
+  <div className="absolute bottom-[10%] left-[20%] text-cyan-400/10 text-6xl animate-bounce">
+    ⚛️
+  </div>
+
+</div>
+
 
       {/* Hero Section */}
     <section
@@ -143,6 +160,13 @@ and next-generation healthcare technologies.
 
         {/* Glow Background */}
         <div className="absolute w-[400px] h-[400px] bg-cyan-500 opacity-20 blur-3xl rounded-full"></div>
+        {/* Floating Glow Effects */}
+
+<div className="absolute top-20 left-10 w-32 h-32 bg-cyan-400/10 blur-3xl rounded-full animate-pulse"></div>
+
+<div className="absolute top-1/2 right-10 w-40 h-40 bg-cyan-400/10 blur-3xl rounded-full animate-pulse"></div>
+
+<div className="absolute bottom-20 left-1/3 w-24 h-24 bg-cyan-400/10 blur-2xl rounded-full animate-pulse"></div>
         {/* Buttons */}
         <div className="mt-10 flex gap-4 z-10">
 
