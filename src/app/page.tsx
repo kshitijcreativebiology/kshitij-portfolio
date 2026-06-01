@@ -367,30 +367,6 @@ and AI-driven healthcare innovations.
 
     </div>
 
-    {/* Rapture Biotech */}
-    <div className="relative pl-10 pb-12 border-l border-cyan-500/30">
-
-      <div className="absolute left-[-8px] top-2 w-4 h-4 bg-cyan-400 rounded-full shadow-[0_0_15px_#22d3ee]"></div>
-
-      <h3 className="text-3xl font-bold text-white">
-        Recombinant DNA Tech. & Medical Microbiology Training
-      </h3>
-
-      <h4 className="text-cyan-400 text-lg mt-1">
-        Rapture Biotech , Noida
-      </h4>
-
-      <p className="text-gray-400 mt-4 leading-relaxed">
-        Received hands-on training in recombinant DNA technology,
-        gene cloning, restriction digestion, DNA ligation,
-        bacterial transformation, agarose gel electrophoresis,
-        plasmid analysis, media preparation, pathogen isolation,
-        Gram staining, antimicrobial susceptibility testing,
-        MIC & MBC determination, and laboratory biosafety practices.
-      </p>
-
-    </div>
-
     {/* IIT Roorkee */}
     <div className="relative pl-10">
 
